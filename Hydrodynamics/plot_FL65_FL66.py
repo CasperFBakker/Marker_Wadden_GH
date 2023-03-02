@@ -20,18 +20,14 @@ plt.ylabel('Mean water level [m NAP]')
 
 WindData_Uur = np.array(pd.read_csv('Hydrodynamic_Data/WindData_Uur_Houtribdijk_Period.csv'))
 WindDirection = WindData_Uur[:,3]
-WindDirectionFilt = []
-for index, value in enumerate(WindDirection):
-    if value !=990:
-        WindDirectionFilt.append(value)
-    else: 
-        WindDirectionFilt.append(np.nan)
+WindDirectionFilt = np.where(WindDirection==990, np.nan, WindDirection)
+
 plt.subplot(4,1,2)
-plt.plot(WindData_Uur[:,0], WindData_Uur[:,4]/10)
+plt.scatter(WindData_Uur[:,0], WindData_Uur[:,4]/10,s=1.75)
 plt.ylabel('Mean wind speed [m/s]')
 
 plt.subplot(4,1,3)
-plt.plot(WindData_Uur[:,0], WindDirectionFilt)
+plt.scatter(WindData_Uur[:,0], WindDirectionFilt,s=1.75)
 plt.ylabel('Mean wind direction  [$^\circ$]')
 
 plt.subplot(4,1,4)
