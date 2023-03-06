@@ -15,25 +15,25 @@ settings = {
     
     ### General Settings ###
     # Site name (for output folder and files) 
-    'site_name': 'NARRA',
+    'site_name': 'MarkerWadden_Test',
     # Maximum image cloud cover percentage threshold
     'cloud_threshold': 10, # Default 10
     # Minimum image AOI cover percentage threshold
     'extent_thresh': 80, # Default 80
     # Desired output shoreline epsg
-    'output_epsg': '28356',
+    'output_epsg': '28992',
 
 
     ### Reference files (in "...CoastSat.PlanetScope/user_inputs/") ###
     # Area of interest file (save as .kml file from geojson.io website)
-    'aoi_kml': 'NARRA_polygon.kml',
+    'aoi_kml': 'MarkerWadden.kml',
     # Transects in geojson file (ensure same epsg as output_epsg)
-    'transects': 'NARRA_transects.geojson', # False
+    'transects': 'MarkerWadden_Transects.geojson', # False
         # If False boolean given, popup window will allow for manual drawing of transects
     # Tide csv file in MSL and UTC 
-    'tide_data': 'NARRA_tides.csv',
+    'tide_data': 'MarkerWadden_tides.csv',
     # Local folder planet imagery downloads location (provide full folder path)
-    'downloads_folder': '.../USER_PLANET_DOWNLOADS_FOLDER',
+    'downloads_folder': '/home/casper/Documents/Aardwetenschappen/Marker_Wadden/Marker_Wadden_GH/CoastSat_PlanetScope/user_inputs/Photo/2018_2dates_Test_QGIS/PSScene/',
 
 
     ### Processing settings ###
@@ -54,7 +54,7 @@ settings = {
     # Minimum length for identified contour line to be saved as a shoreline [in metres]
     'min_length_sl': 500, # Default 500 
     # GDAL location setting (Update path to match GDAL path. Update 'coastsat_ps' to chosen environment name. Example provided is for mac)
-    'GDAL_location': '/Users/USER_NAME/.conda/envs/coastsat_ps/bin/',
+    'GDAL_location': '/home/casper/anaconda3/envs/wlmw/bin/',
         # for Windows - Update 'anaconda2' to 'anaconda3' depending on installation version.
         # 'GDAL_location': r'C:\ProgramData\Anaconda3\envs\coastsat_ps\Library\bin',
     
@@ -79,7 +79,7 @@ select_ref_image(settings)
 
 #%% 1.3) Pre-Processing - image coregistration and scene merging
 
-raise Exception('Run cell 1.3 manually')
+# raise Exception('Run cell 1.3 manually')
     
 # Due to spyder issue, select the below code and press F9 to run rather than running individual cell
 pre_process(settings, outputs, 
@@ -132,7 +132,7 @@ sl_csv = compute_intersection(shoreline_data, settings)
 tide_settings = {
     # select beach slope as a generic value, or list of values corresponding to each transect
         # Transect specific beach slope values can be extracted with the CoastSat beach slope tool https://github.com/kvos/CoastSat.slope
-    'beach_slope': [0.085, 0.075, 0.08, 0.08, 0.1], #0.1 - Can be found using CoastSat.Slope toolbox
+    'beach_slope': 0.074, #0.1 - Can be found using CoastSat.Slope toolbox
     
     # Reference elevation contour
     'contour': 0.7,
@@ -142,9 +142,9 @@ tide_settings = {
     'offset': 0,
     
     # Date filter (minimum)
-    'date_min':'2016-01-01',
+    'date_min':'2018-01-01',
     # Date filter (maximum)
-    'date_max':'2021-01-01' 
+    'date_max':'2019-01-01' 
     }
 
 sl_csv_tide = tidal_correction(settings, tide_settings, sl_csv)

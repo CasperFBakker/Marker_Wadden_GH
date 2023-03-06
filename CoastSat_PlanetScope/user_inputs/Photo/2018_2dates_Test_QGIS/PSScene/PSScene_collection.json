@@ -1,0 +1,66 @@
+{
+  "type": "Collection",
+  "id": "116f7a9b-27aa-4e91-9ecf-d4f89d38958a: PSScene",
+  "stac_version": "1.0.0",
+  "description": "PSScene",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180121_100220_103d.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180222_100356_101f.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180222_100440_1003.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180222_100439_1003.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180222_100357_101f.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "pl:item_type": "PSScene",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          5.03157295264154,
+          52.49768832592707,
+          5.6682750928593055,
+          52.72486455822825
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-21T10:02:20.971239Z",
+          "2018-02-22T10:04:40.983111Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

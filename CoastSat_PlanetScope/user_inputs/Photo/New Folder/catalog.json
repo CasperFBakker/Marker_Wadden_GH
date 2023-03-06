@@ -1,0 +1,19 @@
+{
+  "type": "Catalog",
+  "id": "9499d406-e490-4b86-b42b-0c1f60544fea",
+  "stac_version": "1.0.0",
+  "description": "26_02_2018_Test_PSScene",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./PSScene/PSScene_collection.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": []
+}
