@@ -19,7 +19,7 @@ settings = {
     # Maximum image cloud cover percentage threshold
     'cloud_threshold': 10, # Default 10
     # Minimum image AOI cover percentage threshold
-    'extent_thresh': 80, # Default 80
+    'extent_thresh': 20, # Default 80
     # Desired output shoreline epsg
     'output_epsg': '28992',
 
@@ -33,7 +33,7 @@ settings = {
     # Tide csv file in MSL and UTC 
     'tide_data': 'MarkerWadden_tides.csv',
     # Local folder planet imagery downloads location (provide full folder path)
-    'downloads_folder': '/home/casper/Documents/Aardwetenschappen/Marker_Wadden/Marker_Wadden_GH/CoastSat_PlanetScope/user_inputs/Photo/2018_2dates_Test_QGIS/PSScene/',
+    'downloads_folder': '/home/casper/Documents/Aardwetenschappen/Marker_Wadden/Marker_Wadden_GH/CoastSat_PlanetScope/user_inputs/Photo/NoordStrand/PSScene/',
 
 
     ### Processing settings ###
@@ -57,10 +57,11 @@ settings = {
     'GDAL_location': '/home/casper/anaconda3/envs/wlmw/bin/',
         # for Windows - Update 'anaconda2' to 'anaconda3' depending on installation version.
         # 'GDAL_location': r'C:\ProgramData\Anaconda3\envs\coastsat_ps\Library\bin',
-    
+
     #### Additional advanced Settings can be found in "...CoastSat.PlanetScope/coastsat_ps/data_import.py"
-    
+
     }
+
 
 
 # Import data and updade settings based on user input
@@ -132,7 +133,7 @@ sl_csv = compute_intersection(shoreline_data, settings)
 tide_settings = {
     # select beach slope as a generic value, or list of values corresponding to each transect
         # Transect specific beach slope values can be extracted with the CoastSat beach slope tool https://github.com/kvos/CoastSat.slope
-    'beach_slope': 0.074, #0.1 - Can be found using CoastSat.Slope toolbox
+    'beach_slope': 0.014, #0.1 - Can be found using CoastSat.Slope toolbox
     
     # Reference elevation contour
     'contour': 0.7,
@@ -142,9 +143,9 @@ tide_settings = {
     'offset': 0,
     
     # Date filter (minimum)
-    'date_min':'2018-01-01',
+    'date_min':'2016-01-01',
     # Date filter (maximum)
-    'date_max':'2019-01-01' 
+    'date_max':'2021-01-01' 
     }
 
 sl_csv_tide = tidal_correction(settings, tide_settings, sl_csv)
@@ -173,5 +174,4 @@ for transect in settings['transects_load'].keys():
                 
             
 
-            
-
+          
