@@ -1,0 +1,71 @@
+{
+  "type": "Collection",
+  "id": "429773cd-bf34-4e44-b5b5-a0f207114ab1: PSScene",
+  "stac_version": "1.0.0",
+  "description": "PSScene",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180102_100450_0f53.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180108_100223_0f51.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180121_100220_103d.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180206_100412_0f4e.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180206_100414_0f4e.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20180206_100439_1011.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "pl:item_type": "PSScene",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          4.995368894501974,
+          52.49721271541976,
+          5.682756396019058,
+          52.708990433247564
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-02T10:04:50.883413Z",
+          "2018-02-06T10:04:39.170567Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
