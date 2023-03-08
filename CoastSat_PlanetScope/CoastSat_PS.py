@@ -19,16 +19,16 @@ settings = {
     # Maximum image cloud cover percentage threshold
     'cloud_threshold': 10, # Default 10
     # Minimum image AOI cover percentage threshold
-    'extent_thresh': 20, # Default 80
+    'extent_thresh': 80, # Default 80
     # Desired output shoreline epsg
     'output_epsg': '28992',
 
 
     ### Reference files (in "...CoastSat.PlanetScope/user_inputs/") ###
     # Area of interest file (save as .kml file from geojson.io website)
-    'aoi_kml': 'MarkerWadden.kml',
+    'aoi_kml': 'Zuidstrand.kml',
     # Transects in geojson file (ensure same epsg as output_epsg)
-    'transects': 'MarkerWadden_Transects.geojson', # False
+    'transects': 'Zuidstrand_Transects.geojson', # False
         # If False boolean given, popup window will allow for manual drawing of transects
     # Tide csv file in MSL and UTC 
     'tide_data': 'MarkerWadden_tides.csv',
