@@ -33,7 +33,7 @@ settings = {
     # Tide csv file in MSL and UTC 
     'tide_data': 'MarkerWadden_tides.csv',
     # Local folder planet imagery downloads location (provide full folder path)
-    'downloads_folder': '/home/casper/Documents/Aardwetenschappen/Marker_Wadden/Marker_Wadden_GH/CoastSat_PlanetScope/user_inputs/Photo/NoordStrand/PSScene/',
+    'downloads_folder': '/home/casper/Documents/Aardwetenschappen/Marker_Wadden/Marker_Wadden_GH/CoastSat_PlanetScope/user_inputs/MarkerWadden_2018_2021/PSScene/',
 
 
     ### Processing settings ###
