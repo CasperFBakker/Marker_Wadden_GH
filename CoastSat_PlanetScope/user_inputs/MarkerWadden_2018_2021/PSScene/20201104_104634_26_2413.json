@@ -1,0 +1,337 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "20201104_104634_26_2413",
+  "properties": {
+    "updated": "2022-12-17T16:00:48Z",
+    "created": "2021-03-18T05:14:33Z",
+    "gsd": 4.1,
+    "constellation": "planetscope",
+    "platform": "2413",
+    "instruments": [
+      "PSB.SD"
+    ],
+    "eo:cloud_cover": 5,
+    "view:off_nadir": 1.1,
+    "view:azimuth": 272.5,
+    "view:sun_azimuth": 170.9,
+    "view:sun_elevation": 21.5,
+    "pl:ground_control": true,
+    "pl:item_type": "PSScene",
+    "pl:pixel_resolution": 3,
+    "pl:publishing_stage": "finalized",
+    "pl:quality_category": "standard",
+    "pl:strip_id": "3867640",
+    "published": "2021-03-18T05:14:33Z",
+    "proj:epsg": null,
+    "datetime": "2020-11-04T10:46:34.265043Z"
+  },
+  "geometry": {
+    "coordinates": [
+      [
+        [
+          5.357703001401626,
+          52.65689268214121
+        ],
+        [
+          5.278760178716683,
+          52.46910472140387
+        ],
+        [
+          5.792723287798092,
+          52.387321667962105
+        ],
+        [
+          5.874174457275831,
+          52.57490678066173
+        ],
+        [
+          5.357703001401626,
+          52.65689268214121
+        ]
+      ]
+    ],
+    "type": "Polygon"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "./PSScene_collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./PSScene_collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "20201104_104634_26_2413_metadata_json": {
+      "href": "./20201104_104634_26_2413_metadata.json",
+      "type": "application/json",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "20201104_104634_26_2413_3B_AnalyticMS_metadata_clip_xml": {
+      "href": "./20201104_104634_26_2413_3B_AnalyticMS_metadata_clip.xml",
+      "type": "text/xml",
+      "pl:asset_type": "ortho_analytic_4b_xml",
+      "pl:bundle_type": "analytic_udm2",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "20201104_104634_26_2413_3B_AnalyticMS_clip_tif": {
+      "href": "./20201104_104634_26_2413_3B_AnalyticMS_clip.tif",
+      "type": "image/tiff",
+      "pl:asset_type": "ortho_analytic_4b",
+      "pl:bundle_type": "analytic_udm2",
+      "raster:bands": [
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 2702.0,
+            "maximum": 7436.0
+          },
+          "scale": 4.284698112002116e-05
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 1631.0,
+            "maximum": 6293.0
+          },
+          "scale": 4.6470878912428914e-05
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 1001.0,
+            "maximum": 5496.0
+          },
+          "scale": 5.5934118599125634e-05
+        },
+        {
+          "nodata": 0.0,
+          "data_type": "uint16",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 9.0,
+            "maximum": 4609.0
+          },
+          "scale": 8.852964575939154e-05
+        }
+      ],
+      "eo:bands": [
+        {
+          "name": "Blue",
+          "common_name": "blue",
+          "center_wavelength": 0.49,
+          "full_width_half_max": 0.05
+        },
+        {
+          "name": "Green",
+          "common_name": "green",
+          "center_wavelength": 0.565,
+          "full_width_half_max": 0.036
+        },
+        {
+          "name": "Red",
+          "common_name": "red",
+          "center_wavelength": 0.665,
+          "full_width_half_max": 0.03
+        },
+        {
+          "name": "Near-Infrared",
+          "common_name": "nir",
+          "center_wavelength": 0.865,
+          "full_width_half_max": 0.04
+        }
+      ],
+      "proj:epsg": 32631,
+      "proj:bbox": [
+        659379.0,
+        5826207.0,
+        663120.0,
+        5831643.0
+      ],
+      "proj:shape": [
+        1812,
+        1247
+      ],
+      "proj:transform": [
+        3.0,
+        0.0,
+        659379.0,
+        0.0,
+        -3.0,
+        5831643.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "20201104_104634_26_2413_3B_udm2_clip_tif": {
+      "href": "./20201104_104634_26_2413_3B_udm2_clip.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "pl:asset_type": "ortho_udm2",
+      "pl:bundle_type": "analytic_udm2",
+      "raster:bands": [
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 1.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 0.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 0.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 0.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 0.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 1.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 100.0
+          }
+        },
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 3.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 2.0
+          }
+        }
+      ],
+      "eo:bands": [
+        {
+          "name": "B1",
+          "description": "Clear map (0: not clear, 1: clear)"
+        },
+        {
+          "name": "B2",
+          "description": "Snow map (0: no snow or ice, 1: snow or ice)"
+        },
+        {
+          "name": "B3",
+          "description": "Shadow map (0: no shadow, 1: shadow)"
+        },
+        {
+          "name": "B4",
+          "description": "Light haze map (0: no light haze, 1: light haze)"
+        },
+        {
+          "name": "B5",
+          "description": "Heavy haze map (0: no heavy haze, 1: heavy haze)"
+        },
+        {
+          "name": "B6",
+          "description": "Cloud map (0: no cloud, 1: cloud)"
+        },
+        {
+          "name": "B7",
+          "description": "Confidence map (percentage value: per-pixel algorithmic confidence in classification)"
+        },
+        {
+          "name": "B8",
+          "description": "Unusable pixels"
+        }
+      ],
+      "proj:epsg": 32631,
+      "proj:bbox": [
+        659379.0,
+        5826207.0,
+        663120.0,
+        5831643.0
+      ],
+      "proj:shape": [
+        1812,
+        1247
+      ],
+      "proj:transform": [
+        3.0,
+        0.0,
+        659379.0,
+        0.0,
+        -3.0,
+        5831643.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "roles": [
+        "data",
+        "snow-ice",
+        "cloud",
+        "cloud-shadow"
+      ]
+    }
+  },
+  "bbox": [
+    5.278760178716683,
+    52.387321667962105,
+    5.874174457275831,
+    52.65689268214121
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/view/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "collection": "195b0ad5-7697-4cf2-a322-6c4b6c15c9be: PSScene"
+}

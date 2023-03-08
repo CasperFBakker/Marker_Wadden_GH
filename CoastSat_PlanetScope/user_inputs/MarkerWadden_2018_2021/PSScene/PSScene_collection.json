@@ -1,0 +1,641 @@
+{
+  "type": "Collection",
+  "id": "195b0ad5-7697-4cf2-a322-6c4b6c15c9be: PSScene",
+  "stac_version": "1.0.0",
+  "description": "PSScene",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190524_101800_1011.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190604_101821_103d.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190724_101736_1039.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190827_083617_104b.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200902_102215_1032.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190421_101435_100a.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200404_095910_13_1067.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200807_095858_82_2259.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190524_101453_1012.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190724_083759_104b.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190730_100951_77_106d.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200322_095156_66_2257.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20201205_102110_1009.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190509_085300_0f2d.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190827_101750_0f52.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190921_083230_0f2e.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20201023_102244_1038.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200322_095154_63_2257.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190401_102045_92_106d.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190623_084230_0f2d.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190623_084231_0f2d.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200307_101920_1013.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200424_102539_0f34.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200916_095433_86_2278.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20210125_101908_100a.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190827_102117_0f34.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190930_082922_104b.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200207_100636_0e20.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20201205_094421_23_106a.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190401_102045_39_106d.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190421_101719_1012.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190724_101737_1039.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200307_103047_1105.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200526_100738_0e3a.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190930_100605_0e19.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200424_102305_0f52.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200730_101749_1001.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20210112_101742_1032.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190724_083800_104b.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20191110_101848_1003.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190930_100606_0e19.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200404_102233_1006.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20201205_100124_0e0f.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20191227_101813_0f15.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190704_101553_100e.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190730_101535_103b.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200621_101823_103c.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200730_102113_1025.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200207_102240_0f4e.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20201023_102243_1038.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200121_102055_100c.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200322_102125_0f4e.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200730_102114_1025.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20201205_102109_1009.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200307_102052_1004.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200621_101822_103c.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20201104_104634_26_2413.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190704_102845_10_1061.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200613_102246_1039.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190730_101303_0e16.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190509_085301_0f2d.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200307_095755_27_106c.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200424_102540_0f34.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200613_101957_1029.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190730_101536_103b.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20191110_101849_1003.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20201205_100123_0e0f.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190827_102116_0f34.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200404_102232_1006.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20201023_105133_45_1058.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190421_101436_100a.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200307_101919_1013.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20201104_104631_98_2413.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200902_102216_1032.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190421_085532_1_0f21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20191227_101814_0f15.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200526_100739_0e3a.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20201023_104518_79_241c.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190421_101720_1012.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20191227_104025_76_105c.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200730_101750_1001.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20210112_105609_69_1066.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200526_095210_63_2259.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20191016_100936_63_106b.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200207_102241_0f4e.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20201205_102317_100c.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190524_101452_1012.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190704_101552_100e.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190421_085531_0f21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200307_103048_1105.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200621_102341_100a.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190930_082921_104b.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190604_101822_103d.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200207_100637_0e20.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200807_095901_04_2259.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190524_101759_1011.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200307_102053_1004.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20201118_094708_90_106d.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190827_083618_104b.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190401_101800_1013.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20210112_101741_1032.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200424_102306_0f52.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190401_102044_87_106d.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190730_084031_0f49.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20191031_103629_56_1058.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20201023_104516_44_241c.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190704_102847_14_1061.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200621_102340_100a.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20201118_094710_42_106d.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190730_101302_0e16.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190827_101749_0f52.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200526_095213_02_2259.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200504_095314_22_2257.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190401_101953_1006.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200322_102126_0f4e.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20210125_101907_100a.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190921_083231_0f2e.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20200916_095431_47_2278.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190730_084032_0f49.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20190401_101952_1006.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "pl:item_type": "PSScene",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          4.954248064567483,
+          52.33611826162979,
+          5.935250520005354,
+          52.799688494536525
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-04-01T10:18:00.238379Z",
+          "2021-01-25T10:19:08.389220Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
