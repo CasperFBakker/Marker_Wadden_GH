@@ -60,11 +60,11 @@ filepath_models = create_folder(os.path.join(os.getcwd(), 'models'))
      
 sitename = 'NARRA'
 
-filepath_images = ('...CoastSat.PlanetScope/outputs/NARRA/toa_image_data/merged_data/local_coreg_merged')
+filepath_images = ('/home/casper/Documents/Aardwetenschappen/Marker_Wadden/Marker_Wadden_GH/CoastSat_PlanetScope/outputs/Zuidstrand_20192021/toa_image_data/merged_data/train_data/All/')
 
-epsg = 28356
+epsg = 28992
 
-classifier_save_name = 'NN_4classes_PS'
+classifier_save_name = 'NN_4classes_PS_ZS_All'
 
 
 #%% Update settings
@@ -74,7 +74,7 @@ settings ={'filepath_train':filepath_train, # folder where the labelled images w
            'inputs':{'filepath':filepath_images, 'sitename': sitename}, # folder where the images are stored
            'labels':{'sand':1,'white-water':2,'water':3,'other land features':4}, # labels for the classifier
            'colors':{'sand':[1, 0.65, 0],'white-water':[1,0,1],'water':[0.1,0.1,0.7],'other land features':[0.8,0.8,0.1]},
-           'tolerance':0.02, # this is the pixel intensity tolerance, when using flood fill for sandy pixels
+           'tolerance':0.25, # this is the pixel intensity tolerance, when using flood fill for sandy pixels
                              # set to 0 to select one pixel at a time
             }
         
@@ -117,15 +117,15 @@ print('Loaded classifier features:')
 for key in features_original.keys():
     print('%s : %d pixels'%(key,len(features_original[key])))
 
-# # Option 1) add the white-water data from the original training data
-# features['white-water'] = np.append(features['white-water'], features_original['white-water'], axis=0)
+# # # Option 1) add the white-water data from the original training data
+# # features['white-water'] = np.append(features['white-water'], features_original['white-water'], axis=0)
 
-# # Option 2) Merge all the classes
-for key in features.keys():
-    features[key] = np.append(features[key], features_original[key], axis=0)
+# # # Option 2) Merge all the classes
+# for key in features.keys():
+#     features[key] = np.append(features[key], features_original[key], axis=0)
 
 # Option 3) Use original data
-# features = features_original 
+features = features_original 
 
 print('\nUpdated classifier features:')
 for key in features.keys():

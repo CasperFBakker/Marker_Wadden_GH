@@ -15,7 +15,7 @@ settings = {
     
     ### General Settings ###
     # Site name (for output folder and files) 
-    'site_name': 'MarkerWadden_Test',
+    'site_name': 'Zuidstrand_20192021_newModelAll_T2',
     # Maximum image cloud cover percentage threshold
     'cloud_threshold': 10, # Default 10
     # Minimum image AOI cover percentage threshold
@@ -28,10 +28,10 @@ settings = {
     # Area of interest file (save as .kml file from geojson.io website)
     'aoi_kml': 'Zuidstrand.kml',
     # Transects in geojson file (ensure same epsg as output_epsg)
-    'transects': 'Zuidstrand_Transects.geojson', # False
+    'transects': False, #'Zuidstrand_Transects.geojson', # False
         # If False boolean given, popup window will allow for manual drawing of transects
     # Tide csv file in MSL and UTC 
-    'tide_data': 'MarkerWadden_tides.csv',
+    'tide_data': 'STB_FL65_Waterhoogte.csv',
     # Local folder planet imagery downloads location (provide full folder path)
     'downloads_folder': '/home/casper/Documents/Aardwetenschappen/Marker_Wadden/Marker_Wadden_GH/CoastSat_PlanetScope/user_inputs/MarkerWadden_2018_2021/PSScene/',
 
@@ -39,7 +39,7 @@ settings = {
     ### Processing settings ###
     # Machine learning classifier filename (in "...CoastSat.PlanetScope/classifier/models")
         # A new classifier may be re-trained after step 1.3. Refer "...CoastSat.PlanetScope/classifier/train_new_classifier.py" for instructions. 
-    'classifier': 'NN_4classes_PS_NARRA.pkl',
+    'classifier': 'NN_4classes_PS_ZS_All_25000_NARRA_9867.pkl',
     # Image co-registration choice ['Coreg Off', 'Local Coreg', 'Global Coreg']
     'im_coreg': 'Local Coreg', # refer https://pypi.org/project/arosics/ for details on Local vs Global coreg. Local recommended but slower. 
 
@@ -50,9 +50,9 @@ settings = {
     # Max distance from reference shoreline for valid shoreline [in metres]
     'max_dist_ref': 75, # Default 75
     # Minimum area (m^2) for an object to be labelled as a beach
-    'min_beach_area': 150*150, # Default 22500
+    'min_beach_area': 20*2000, # Default 22500
     # Minimum length for identified contour line to be saved as a shoreline [in metres]
-    'min_length_sl': 500, # Default 500 
+    'min_length_sl': 2500, # Default 500 
     # GDAL location setting (Update path to match GDAL path. Update 'coastsat_ps' to chosen environment name. Example provided is for mac)
     'GDAL_location': '/home/casper/anaconda3/envs/wlmw/bin/',
         # for Windows - Update 'anaconda2' to 'anaconda3' depending on installation version.
@@ -153,15 +153,15 @@ sl_csv_tide = tidal_correction(settings, tide_settings, sl_csv)
 
 #%% 6) Plot transects
     
-for transect in settings['transects_load'].keys():
-    ts_plot_single(settings, sl_csv_tide, transect, 
+# for transect in settings['transects_load'].keys():
+#     ts_plot_single(settings, sl_csv_tide, transect, 
                    
-        # set savgol = True to plot 15 day moving average shoreline position
-        # Requires > 15 day shorleine timeseries range
-        savgol = True,
+#         # set savgol = True to plot 15 day moving average shoreline position
+#         # Requires > 15 day shorleine timeseries range
+#         savgol = False, # True,
         
-        # set x_scale for x-axis labels ['days', 'months', 'years']
-        x_scale = 'years')
+#         # set x_scale for x-axis labels ['days', 'months', 'years']
+#         x_scale = 'days')
     
   
 #%% Approximate times (for ~1000 downloaded images)
